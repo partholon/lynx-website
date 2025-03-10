@@ -17,7 +17,7 @@ export default defineConfig({
   title: 'Lynx',
   description:
     'Empower the web community and invite more to build cross-platform apps',
-  icon: 'https://lf-lynx.tiktok-cdns.com/obj/lynx-artifacts-oss-sg/lynx-website/assets/lynx-dark-logo.svg',
+  icon: '/assets/favicon.png',
   lang: 'en',
   globalStyles: path.join(__dirname, 'src', 'styles', 'global.css'),
   builderConfig: {
@@ -26,7 +26,8 @@ export default defineConfig({
         title: 'Lynx',
         type: 'website',
         url: 'https://lynxjs.org/',
-        image: 'https://lynxjs.org/assets/og-image.png',
+        image:
+          'https://lf-lynx.tiktok-cdns.com/obj/lynx-artifacts-oss-sg/lynx-website/assets/og-image.png',
         description:
           'Empower the web community and invite more to build cross-platform apps',
         twitter: {
@@ -47,7 +48,7 @@ export default defineConfig({
         'process.env': {
           OSS: '3.2',
           DOC_GIT_BASE_URL: JSON.stringify(
-            'https://github.com/lynx-wg/lynx-website/tree/main',
+            'https://github.com/lynx-family/lynx-website/tree/main',
           ),
         },
       },
